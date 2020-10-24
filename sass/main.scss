@@ -1,6 +1,25 @@
-//подключить меин.мин.цсс к хтмл
-
+// utils
 @import "./utils/variables";
-@import "./utils/visuall-hidden";
+@import "./utils/visually-hidden";
+
+// base
 @import "./base/common";
+@import "./base/container";
+
+// components
+@import "./components/logo";
+@import "./components/section-title";
+@import "./components/modal-button";
+@import "./components/modal";
+
+// layouts
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/studio-page-sections/hero";
+@import "./layouts/studio-page-sections/advantages";
+@import "./layouts/studio-page-sections/services";
+@import "./layouts/studio-page-sections/team";
+@import "./layouts/studio-page-sections/clients";
+
+
 

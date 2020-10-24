@@ -1,0 +1,36 @@
+.services {
+    padding-bottom: 94px;
+}
+
+.services-list {
+    display: flex;
+}
+
+.services-list-item {
+    position: relative;
+}
+
+.services-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.service-list-overlay {
+    position: absolute;
+    bottom:0;
+    left:0;
+    display: flex;
+    padding: 27px 27px;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    background: var(--services-bg);
+}
+
+.service-list-overlay-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    color: var(--title-light-color);
+    text-transform: uppercase;
+}

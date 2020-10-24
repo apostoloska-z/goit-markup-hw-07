@@ -1,0 +1,138 @@
+@import "../components/social-list";
+
+.footer {
+    padding: 60px 0;
+    min-height: 252px;
+    background-color: var(--background-dark-color);
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-address {
+    align-content: center;
+    margin-right: 70px;
+}
+
+.footer .logo-reverse {
+    color: var(--title-light-color);
+}
+
+.footer .logo {
+    margin-bottom:20px;
+}
+
+.address > a {
+    display:block;
+}
+
+.address > a:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-main {
+    margin-bottom: 9px;
+}
+
+.address-main {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--title-light-color);
+    transition: color var(--transition-timing);
+}
+
+.address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--semitransparent-address-color);
+    transition: color var(--transition-timing);
+}
+
+.address-main:hover,
+.address-main:focus,
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+.join-us {
+    width: 206px;
+    height: 80px;
+    margin-right: 93px;
+}
+
+.join-us-slogan,
+.submit-slogan {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-light-color);
+}
+
+.footer .social-list-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-list-svg {
+    fill: var(--title-light-color);
+}
+
+.submit-email {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 15px 16px;
+    border: 1px solid var(--semitransparent-border-color);
+    border-radius: 4px;
+    background-color: var(--background-dark-color);
+    color: var(--title-light-color);
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    padding: 10px 29px;
+    background: var(--accent-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: var(--title-light-color);
+    cursor: pointer;
+}
+
+.submit-svg {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    fill: var(--title-light-color);
+}
+
+.submit-form {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.submit-form input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--semitransparent-address-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
