@@ -1,0 +1,65 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --title-dark-color: #212121;
+  --title-light-color: #FFFFFF;
+  --logo-dark-color: #000000;
+  --description-color: #757575;
+  --accent-color: #2196F3;
+  --background-dark-color: #2F303A;
+  --background-light-color: #F5F4FA;
+  --semitransparent-address-color:  rgba(255, 255, 255, 0.6);
+  --semitransparent-border-color:  rgba(255, 255, 255, 0.3);
+  --section-border-color: solid #ECECEC;
+  --card-border-color: solid #EEEEEE;
+  --hero-bg: #C4C4C4;
+  --icon-color: #AFB1B8;
+  --services-bg: rgba(47, 48, 58, 0.8);
+  --backdrop-color: rgba(0, 0, 0, 0.2);
+  --border-radius: rgba(0, 0, 0, 0.1);
+  --modal-input-border:  rgba(33, 33, 33, 0.2);
+  --placeholder-color: rgba(117, 117, 117, 0.5);
+  --transition-timing: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
