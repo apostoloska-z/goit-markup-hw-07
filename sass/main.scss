@@ -9,15 +9,13 @@
 // components
 @import "./components/logo";
 @import "./components/section-title";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/social-list";
 @import "./components/modal-button";
 @import "./components/modal";
-@import "./components/social-list";
-
-// layouts
-@import "./layouts/header";
-@import "./layouts/footer";
-@import "./layouts/studio-page-sections/hero";
-@import "./layouts/studio-page-sections/advantages";
-@import "./layouts/studio-page-sections/services";
-@import "./layouts/studio-page-sections/team";
-@import "./layouts/studio-page-sections/clients";
+@import "./components/hero";
+@import "./components/advantages";
+@import "./components/services";
+@import "./components/team";
+@import "./components/clients";

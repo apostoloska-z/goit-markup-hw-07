@@ -1,6 +1,6 @@
 // utils
 @import "./utils/variables";
-@import "./utils/visuall-hidden";
+@import "./utils/visually-hidden";
 
 // base
 @import "./base/common";
@@ -9,12 +9,8 @@
 // components
 @import "./components/logo";
 @import "./components/section-title";
+@import "./components/header";
+@import "./components/footer";
 @import "./components/social-list";
-
-// layouts
-@import "./layouts/header";
-@import "./layouts/portfolio-page-sections/projects";
-@import "./layouts/footer";
-
-
+@import "./components/projects";
 
