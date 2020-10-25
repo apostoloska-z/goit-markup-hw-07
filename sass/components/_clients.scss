@@ -3,17 +3,15 @@
 }
 
 .clients__list {
-    display: flex;
-    justify-content: center;
+    @extend %flex-align;
 
     &-item:not(:last-child) {
         margin-right: 30px;
     }
     
     &-link {
-        display: flex;
+        @extend %flex-align;
         align-items: center;
-        justify-content: center;
         width: 170px;
         height: 90px;
         border: 1px solid $icon-color;
