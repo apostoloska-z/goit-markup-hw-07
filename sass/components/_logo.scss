@@ -8,19 +8,19 @@
     letter-spacing: 0.03em;
     color: $accent-color;
 
-    .footer & {
-        margin-bottom:20px;
-
-        &-reverse {
-            color: $title-light-color;
-        }
-    }
-
     .header & {
         margin-right: 93px;
 
-        &-reverse {
+        &--reverse {
             color: $logo-dark-color;
+        }
+    }
+
+    .footer & {
+        margin-bottom:20px;
+
+        &--reverse {
+            color: $title-light-color;
         }
     }
 }

@@ -79,20 +79,20 @@ img {
   color: #2196F3;
 }
 
-.footer .logo {
-  margin-bottom: 20px;
-}
-
-.footer .logo-reverse {
-  color: #FFFFFF;
-}
-
 .header .logo {
   margin-right: 93px;
 }
 
-.header .logo-reverse {
+.header .logo--reverse {
   color: #000000;
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+}
+
+.footer .logo--reverse {
+  color: #FFFFFF;
 }
 
 .section-title {
@@ -202,18 +202,18 @@ img {
   fill: #2196F3;
 }
 
-.contact-list__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.envelope {
+.contact-list__svg--envelope {
   width: 16px;
   height: 12px;
 }
 
-.smartphone {
+.contact-list__svg--smartphone {
   width: 10px;
   height: 16px;
+}
+
+.contact-list__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .footer {

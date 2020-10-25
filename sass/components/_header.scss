@@ -83,6 +83,16 @@
         .contact-list-link:focus & {
             fill: $accent-color;
         }
+
+        &--envelope {
+            width: 16px;
+            height: 12px;
+        }
+
+        &--smartphone {
+            width: 10px;
+            height: 16px;;
+        }
     }
 
     &__item:not(:last-child) {
@@ -90,15 +100,6 @@
     }
 }
 
-.envelope {
-    width: 16px;
-    height: 12px;
-}
-
-.smartphone {
-    width: 10px;
-    height: 16px;;
-}
 
 
 
