@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
 
-    &-item:not(:last-child) {
+    &__item:not(:last-child) {
         margin-right: 10px;
     }
 
-    &-link {
+    &__link {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -25,7 +25,7 @@
         }
     }
 
-    &-svg {
+    &__svg {
         width: 20px;
         height: 20px;
         fill: $icon-color;
@@ -35,8 +35,8 @@
             fill: $title-light-color;
         }
 
-        .social-list-link:hover &,
-        .social-list-link:focus & {
+        .social-list__link:hover &,
+        .social-list__link:focus & {
         fill: $title-light-color;
         }
     }

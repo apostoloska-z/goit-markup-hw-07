@@ -2,7 +2,7 @@
 .advantages {
     padding: 94px 0;
 
-    &-list {
+    &__list {
         display: flex;
 
         &-description{
@@ -14,7 +14,7 @@
         }
     }
 
-    &-list-item {
+    &__list-item {
         width: 270px;
 
         &:not(:last-child) {
@@ -22,7 +22,7 @@
         }
     }
 
-    &-list-subtitle {
+    &__list-subtitle {
         margin-bottom: 10px;
         font-weight: 700;
         font-size: 14px;

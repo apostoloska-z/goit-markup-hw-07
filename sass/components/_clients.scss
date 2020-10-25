@@ -2,7 +2,7 @@
     padding: 94px 0;
 }
 
-.clients-list {
+.clients__list {
     display: flex;
     justify-content: center;
 
@@ -30,8 +30,8 @@
         fill: $icon-color;
         transition: fill $transition-timing;
 
-        .clients-list-link:hover &,
-        .clients-list-link:focus & {
+        .clients__list-link:hover &,
+        .clients__list-link:focus & {
         fill: $accent-color;
         }
     }
