@@ -11,20 +11,19 @@
     url(../images/hero/hero-bg.jpg);
     background-repeat: no-repeat;
     background-color: $hero-bg;
+
+    &-title {
+        margin-bottom: 30px;
+        min-width: 696px;
+        height: 120px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.364;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $title-light-color;
+    }  
 }
 
-.hero-title {
-    margin-bottom: 30px;
-    min-width: 696px;
-    height: 120px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $title-light-color;
-}  
 
-.hero .modal-button {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-} 
+

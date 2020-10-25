@@ -2,62 +2,105 @@
     padding: 60px 0;
     min-height: 252px;
     background-color: $background-dark-color;
+
+    .footer-address {
+        align-content: center;
+        margin-right: 70px;
+    }
 }
 
-.footer .container {
-    display: flex;
-    align-items: baseline;
+.address {
+
+    & > a {
+        display:block;
+
+        &:not(:last-child) {
+            margin-bottom: 9px;
+        }
+    }
+
+    &-main {
+        margin-bottom: 9px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: $title-light-color;
+        transition: color $transition-timing;
+
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
+
+    &-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: $semitransparent-address-color;
+        transition: color $transition-timing;
+
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
 }
 
-.footer-address {
-    align-content: center;
-    margin-right: 70px;
+.submit {
+    &-email {
+        width: 358px;
+        height: 50px;
+        margin-right: 12px;
+        padding: 15px 16px;
+        border: 1px solid $semitransparent-border-color;
+        border-radius: 4px;
+        background-color: $background-dark-color;
+        color: $title-light-color;
+    }
+
+    &-button {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        padding: 10px 29px;
+        background: $accent-color;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.875;
+        letter-spacing: 0.06em;
+        color: $title-light-color;
+        cursor: pointer;
+    }
+
+    &-svg {
+        margin-left: 10px;
+        width: 24px;
+        height: 24px;
+        fill: $title-light-color;
+    }
+
+    &-form {
+        display: flex;
+        flex-wrap: nowrap;
+
+        & input::placeholder {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.03em;
+            color: $semitransparent-address-color;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
 }
 
-.footer .logo-reverse {
-    color: $title-light-color;
-}
-
-.footer .logo {
-    margin-bottom:20px;
-}
-
-.address > a {
-    display:block;
-}
-
-.address > a:not(:last-child) {
-    margin-bottom: 9px;
-}
-
-.address-main {
-    margin-bottom: 9px;
-}
-
-.address-main {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: $title-light-color;
-    transition: color $transition-timing;
-}
-
-.address-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: $semitransparent-address-color;
-    transition: color $transition-timing;
-}
-
-.address-main:hover,
-.address-main:focus,
-.address-link:hover,
-.address-link:focus {
-    color: $accent-color;
-}
 
 .join-us {
     width: 206px;
@@ -77,61 +120,8 @@
     color: $title-light-color;
 }
 
-.footer .social-list-link {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer .social-list-svg {
-    fill: $title-light-color;
-}
 
 
-.submit-email {
-    width: 358px;
-    height: 50px;
-    margin-right: 12px;
-    padding: 15px 16px;
-    border: 1px solid $semitransparent-border-color;
-    border-radius: 4px;
-    background-color: $background-dark-color;
-    color: $title-light-color;
-}
 
-.submit-button {
-    display: flex;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    padding: 10px 29px;
-    background: $accent-color;
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    color: $title-light-color;
-    cursor: pointer;
-}
 
-.submit-svg {
-    margin-left: 10px;
-    width: 24px;
-    height: 24px;
-    fill: $title-light-color;
-}
 
-.submit-form {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.submit-form input::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: $semitransparent-address-color;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}

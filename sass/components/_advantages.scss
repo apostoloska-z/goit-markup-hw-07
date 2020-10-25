@@ -1,29 +1,48 @@
 
 .advantages {
     padding: 94px 0;
+
+    &-list {
+        display: flex;
+
+        &-description{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            color: $description-color;
+        }
+    }
+
+    &-list-item {
+        width: 270px;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &-list-subtitle {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $title-dark-color;
+
+        &::before {
+            display:block;
+            content: "";
+            width: 270px;
+            height: 120px;
+            background-color: $background-light-color;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+    }
 }
 
-.advantages-list {
-    display: flex;
-}
-
-.advantages-list-item {
-    width: 270px;
-}
-
-.advantages-list-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.advantages-list-subtitle::before {
-    display:block;
-    content: "";
-    width: 270px;
-    height: 120px;
-    background-color: $background-light-color;
-    margin-bottom: 30px;
-    border-radius: 4px;
-}
 
 .details::before {
     background-image: url(../images/svg/antenna.svg);
@@ -53,20 +72,6 @@
     background-size: 70px 70px;
 }
 
-.advantages-list-subtitle {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $title-dark-color;
-}
 
-.advantages-list-description{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: $description-color;
-}
+
+

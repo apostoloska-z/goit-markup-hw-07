@@ -7,4 +7,20 @@
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: $accent-color;
+
+    .footer & {
+        margin-bottom:20px;
+
+        &-reverse {
+            color: $title-light-color;
+        }
+    }
+
+    .header & {
+        margin-right: 93px;
+
+        &-reverse {
+            color: $logo-dark-color;
+        }
+    }
 }

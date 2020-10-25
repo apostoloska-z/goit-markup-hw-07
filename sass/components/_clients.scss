@@ -5,27 +5,38 @@
 .clients-list {
     display: flex;
     justify-content: center;
+
+    &-item:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+    &-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 90px;
+        border: 1px solid $icon-color;
+        border-radius: 4px;
+        transition: border-color $transition-timing;
+
+        &:hover,
+        &:focus {
+        border-color: $accent-color;
+        }
+    }
+
+    &-svg {
+        fill: $icon-color;
+        transition: fill $transition-timing;
+
+        .clients-list-link:hover &,
+        .clients-list-link:focus & {
+        fill: $accent-color;
+        }
+    }
 }
 
-.clients-list-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.clients-list-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 90px;
-    border: 1px solid $icon-color;
-    border-radius: 4px;
-    transition: border-color $transition-timing;
-}
-
-.clients-list-svg {
-    fill: $icon-color;
-    transition: fill $transition-timing;
-}
 
 .logo-1 {
     width: 44.27px;
@@ -57,12 +68,6 @@
     height: 45.44px;
 }
 
-.clients-list-link:hover .clients-list-svg,
-.clients-list-link:focus .clients-list-svg {
-    fill: $accent-color;
-}
 
-.clients-list-link:hover,
-.clients-list-link:focus {
-    border-color: $accent-color;
-}
+
+
