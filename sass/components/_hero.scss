@@ -10,7 +10,7 @@
     ),
     url(../images/hero/hero-bg.jpg);
     background-repeat: no-repeat;
-    background-color: var(--hero-bg);
+    background-color: $hero-bg;
 }
 
 .hero-title {
@@ -22,7 +22,7 @@
     line-height: 1.364;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--title-light-color);
+    color: $title-light-color;
 }  
 
 .hero .modal-button {

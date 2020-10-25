@@ -1,7 +1,7 @@
 
 .projects {
     padding: 94px 0;
-    border-top: 1px var(--section-border-color);
+    border-top: 1px $section-border-color;
 }
 
 .projects-filter-list {
@@ -23,18 +23,18 @@
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-dark-color);
-    background-color: var(--background-light-color);
+    color: $title-dark-color;
+    background-color: $background-light-color;
     border-radius: 4px;
     border:none;
     cursor: pointer;
-    transition: color var(--transition-timing), background var(--transition-timing), box-shadow var(--transition-timing);
+    transition: color $transition-timing, background-color $transition-timing, box-shadow $transition-timing;
 }
 
 .projects-filter-list-button:hover,
 .projects-filter-list-button:focus {
-    color: var(--title-light-color);
-    background: var(--accent-color);
+    color: $title-light-color;
+    background-color: $accent-color;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -59,15 +59,15 @@
 
 .projects-list-link {
     display: block;
-    transition: box-shadow var(--transition-timing);
+    transition: box-shadow $transition-timing;
 }
 
 
 .projects-card-content {
     padding: 20px 24px;
-    border-bottom: 1px var(--card-border-color);
-    border-left: 1px var(--card-border-color);
-    border-right: 1px var(--card-border-color);
+    border-bottom: 1px $card-border-color;
+    border-left: 1px $card-border-color;
+    border-right: 1px $card-border-color;
 }
 
 .projects-list-title {
@@ -76,7 +76,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--title-dark-color);
+    color: $title-dark-color;
 }
 
 .projects-list-description {
@@ -84,7 +84,7 @@
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: var(--description-color);
+    color: $description-color;
 }
 
 .projects-list-image-box {
@@ -106,9 +106,9 @@
     font-size: 18px;
     line-height: 1.556;
     letter-spacing: 0.03em;
-    color: var(--title-light-color);
+    color: $title-light-color;
     transform: translateY(100%);
-    transition: transform var(--transition-timing);
+    transition: transform $transition-timing;
  }
 
 .projects-list-link:hover .projects-overlay,

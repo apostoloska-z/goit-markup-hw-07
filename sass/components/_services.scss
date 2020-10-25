@@ -23,7 +23,7 @@
     justify-content: center;
     width: 370px;
     height: 70px;
-    background: var(--services-bg);
+    background: $services-bg;
 }
 
 .service-list-overlay-title {
@@ -31,6 +31,6 @@
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
-    color: var(--title-light-color);
+    color: $title-light-color;
     text-transform: uppercase;
 }
