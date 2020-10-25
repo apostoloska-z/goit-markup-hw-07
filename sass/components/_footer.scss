@@ -6,46 +6,46 @@
 
 .address {
 
-    & > a {
+    &__item {
         display:block;
 
         &:not(:last-child) {
             margin-bottom: 9px;
+        }
+
+        &--place {
+            margin-bottom: 9px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            color: $title-light-color;
+            transition: color $transition-timing;
+    
+            &:hover,
+            &:focus {
+                color: $accent-color;
+            }
+        }
+
+        &--contact {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            color: $semitransparent-address-color;
+            transition: color $transition-timing;
+    
+            &:hover,
+            &:focus {
+                color: $accent-color;
+            }
         }
     }
 
     &-wrapper {
         align-content: center;
         margin-right: 70px;
-    }
-
-    &__main {
-        margin-bottom: 9px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.714;
-        letter-spacing: 0.03em;
-        color: $title-light-color;
-        transition: color $transition-timing;
-
-        &:hover,
-        &:focus {
-            color: $accent-color;
-        }
-    }
-
-    &__link {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.714;
-        letter-spacing: 0.03em;
-        color: $semitransparent-address-color;
-        transition: color $transition-timing;
-
-        &:hover,
-        &:focus {
-            color: $accent-color;
-        }
     }
 }
 
@@ -61,7 +61,7 @@
         color: $title-light-color;
     }
 
-    &-button {
+    &__button {
         display: flex;
         align-items: center;
         width: 200px;
