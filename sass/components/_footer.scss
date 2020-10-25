@@ -2,11 +2,6 @@
     padding: 60px 0;
     min-height: 252px;
     background-color: $background-dark-color;
-
-    .footer-address {
-        align-content: center;
-        margin-right: 70px;
-    }
 }
 
 .address {
@@ -19,7 +14,12 @@
         }
     }
 
-    &-main {
+    &-wrapper {
+        align-content: center;
+        margin-right: 70px;
+    }
+
+    &__main {
         margin-bottom: 9px;
         font-weight: 400;
         font-size: 14px;
@@ -34,7 +34,7 @@
         }
     }
 
-    &-link {
+    &__link {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.714;
@@ -50,7 +50,7 @@
 }
 
 .submit {
-    &-email {
+    &__email {
         width: 358px;
         height: 50px;
         margin-right: 12px;
@@ -79,14 +79,14 @@
         cursor: pointer;
     }
 
-    &-svg {
+    &__svg {
         margin-left: 10px;
         width: 24px;
         height: 24px;
         fill: $title-light-color;
     }
 
-    &-form {
+    &__form {
         display: flex;
         flex-wrap: nowrap;
 
@@ -108,8 +108,8 @@
     margin-right: 93px;
 }
 
-.join-us-slogan,
-.submit-slogan {
+.join-us__slogan,
+.submit__slogan {
     display: block;
     margin-bottom: 20px;
     font-weight: 700;
