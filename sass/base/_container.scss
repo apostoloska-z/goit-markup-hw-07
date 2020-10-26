@@ -9,11 +9,10 @@
     }
 
     .header & {
-        display: flex;
+        @extend %flex-align;
         padding: 25px 0;
         height: 80px;
         align-items: center;
-        justify-content: center;
     }
 }
 

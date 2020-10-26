@@ -17,9 +17,8 @@
         position: absolute;
         bottom:0;
         left:0;
-        display: flex;
+        @extend %flex-align;
         padding: 27px 27px;
-        justify-content: center;
         width: 370px;
         height: 70px;
         background: $services-bg;

@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.social-list, .social-list__link, .projects__filter-list {
+.header .container, .social-list, .social-list__link, .projects__filter-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,17 +64,11 @@ img {
 }
 
 .header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 25px 0;
   height: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .logo {
