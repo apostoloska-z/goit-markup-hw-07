@@ -34,10 +34,7 @@
         display: block;
         text-align: center;
         margin-bottom: 12px;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 1.15;
-        letter-spacing: 0.03em;
+        @include font (700, 20px, 1.15, 0.03em);
         color: $title-dark-color;
     }
 }
@@ -45,10 +42,9 @@
 .close-button {
     position: absolute;
     top: 8px;
-    right: 8px;;
-    display: flex;
+    right: 8px;
+    @extend %flex-align;
     align-items: center;
-    justify-content: center;
     width: 30px; 
     height: 30px;
     border-radius: 50%;
@@ -76,9 +72,7 @@
     &__label {
         display: block;
         margin-bottom: 4px;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 1.167;
+        @include font (400, 12px, 1.167, 0.01em);
         color: $description-color;
     }
 
@@ -148,10 +142,7 @@
 .modal-form__checkbox-label {
     display: inline-block;
     margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
+    @include font (400, 14px, 1.714, 0.03em);
     color: $description-color;
 
     &::before {
@@ -176,10 +167,7 @@
 }
 
 .modal-form textarea::placeholder {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 1.143;
-    letter-spacing: 0.01em;
+    @include font (400, 13px, 1.143, 0.01em);
     color: $placeholder-color;
 }
 

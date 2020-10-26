@@ -25,10 +25,7 @@
         background: $services-bg;
 
         &-title {
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 1.143;
-            letter-spacing: 0.03em;
+            @include font (700, 14px, 1.143, 0.03em);
             color: $title-light-color;
             text-transform: uppercase;
         }

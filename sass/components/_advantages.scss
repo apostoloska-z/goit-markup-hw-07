@@ -6,10 +6,7 @@
         display: flex;
 
         &-description{
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.714;
-            letter-spacing: 0.03em;
+            @include font (400, 14px, 1.714, 0.03em);
             color: $description-color;
         }
     }
@@ -24,10 +21,7 @@
 
     &__list-subtitle {
         margin-bottom: 10px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.143;
-        letter-spacing: 0.03em;
+        @include font (700, 14px, 1.143, 0.03em);
         text-transform: uppercase;
         color: $title-dark-color;
 

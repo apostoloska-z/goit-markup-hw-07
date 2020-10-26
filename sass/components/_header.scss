@@ -12,10 +12,7 @@
     display:flex;
 
     &-link {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.143;
-        letter-spacing: 0.02em;
+        @include font (500, 14px, 1.143, 0.02em);
         color: $title-dark-color;
         transition: color $transition-timing;
 
@@ -51,8 +48,6 @@
     }
 }
 
-
-
 .contact-list {
     display:flex;
     margin-left: auto;
@@ -61,10 +56,7 @@
         display: flex;
         align-items: center;
         height: 16px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.143;
-        letter-spacing: 0.02em;
+        @include font (500, 14px, 1.143, 0.02em);
         color: $description-color;
         transition: color $transition-timing;
 

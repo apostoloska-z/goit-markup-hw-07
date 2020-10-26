@@ -109,8 +109,8 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
 }
 
@@ -300,8 +300,8 @@ img {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #FFFFFF;
@@ -437,8 +437,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
   background-color: #F5F4FA;
   border-radius: 4px;
@@ -532,8 +532,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
-  font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.556;
   letter-spacing: 0.03em;
